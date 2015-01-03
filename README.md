@@ -12,7 +12,13 @@ example:
 
 ##Commandline utilities
 ###Arguments
+```
 --input 	input XML document's filename*
 --output 	output CSV file's filename*
 --row 		identify the node in the xml file (iterative)*
 --schema 	xml-csv schema
+```
+example:
+```
+command --input test/Users1.xml --output Users1.csv --row users --schema Id,Reputation,CreationDate,DisplayName,LastAccessDate,WebsiteUrl,Location,Views,UpVotes,DownVotes,Age,AccountId
+```
